@@ -1,11 +1,20 @@
 ﻿//Task 1
-static double CalculateFormula (int a , int b , int c , int d)
+// static double CalculateFormula(int a, int b, int c, int d)
+// {
+//     double numenator = a * b;
+//     int denomenator = c + d;
+//     double result = numenator / denomenator;
+//     return result;
+// }
+// System.Console.WriteLine(CalculateFormula(2, 3, 4, 5));
+//Таск 2
+static void SqaresPrint(int number)
 {
-    double numenator = a * b;
-    int denomenator = c + d;
-    double result = numenator / denomenator;
-    return result ; 
+
+    for (int i = 1; i <= number; i++)
+    {
+        System.Console.WriteLine($"{i * i}\t");
+    }
 }
-System.Console.WriteLine(CalculateFormula(2,3,4,5));
 
-
+SqaresPrint(11);
